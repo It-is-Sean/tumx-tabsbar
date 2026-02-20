@@ -1,6 +1,6 @@
 # tmux-tabsbar
 
-![example workflow](./snaps/showcase.png)
+![example workflow](/snaps/showcase.png)
 
 An opinionated tmux tabs + status bar plugin focused on developer workflow and at-a-glance context.
 Based on `tokyo-night-tmux` (MIT), with extensive modifications and a new focus on tabsbar ergonomics.
@@ -8,7 +8,7 @@ Based on `tokyo-night-tmux` (MIT), with extensive modifications and a new focus 
 
 ## About this plugin
 
-This is a tmux plugin based on (janoamaral/tokyo-night-tmux)[https://github.com/janoamaral/tokyo-night-tmux]. I am currently rewriting most of the script to zsh
+This is a tmux plugin based on [janoamaral/tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux). I am currently rewriting most of the script to zsh
 and tweaking the vistal details, and of course, adding more themes.
 
 ## Requirements
