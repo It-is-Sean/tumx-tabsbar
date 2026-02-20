@@ -1,6 +1,6 @@
 # tmux-tabsbar
 
-![example workflow](https://github.com/It-is-Sean/tmux-tabsbar/actions/workflows/pre-commit.yml/badge.svg?branch=master)
+![example workflow](./snaps/showcase.png)
 
 An opinionated tmux tabs + status bar plugin focused on developer workflow and at-a-glance context.
 Based on `tokyo-night-tmux` (MIT), with extensive modifications and a new focus on tabsbar ergonomics.
