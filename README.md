@@ -5,15 +5,15 @@
 An opinionated tmux tabs + status bar plugin focused on developer workflow and at-a-glance context.
 Based on `tokyo-night-tmux` (MIT), with extensive modifications and a new focus on tabsbar ergonomics.
 
-<a href="https://www.buymeacoffee.com/jano" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-## About this theme
+## About this plugin
 
-This is a very opinionated project, as I am a Tech Lead, this theme is very developer-focused.
+This is a tmux plugin based on (janoamaral/tokyo-night-tmux)[https://github.com/janoamaral/tokyo-night-tmux]. I am currently rewriting most of the script to zsh
+and tweaking the vistal details, and of course, adding more themes.
 
 ## Requirements
 
-This theme has the following hard requirements:
+This plugin has the following hard requirements:
 
 - Any patched [Nerd Fonts] (v3 or higher)
 - Bash 4.2 or newer
@@ -72,7 +72,7 @@ set -g @plugin "It-is-Sean/tmux-tabsbar"
 Use following option to change theme preference:
 
 ```bash
-set -g @tmux-tabsbar_theme storm    # storm | day | default to 'night'
+set -g @tmux-tabsbar_theme catppuccin-mocha    # tokyonight-night, tokyonight-day, etc.
 set -g @tmux-tabsbar_transparent 1  # 1 or 0
 ```
 
